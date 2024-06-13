@@ -113,8 +113,13 @@
 
 @media screen and (max-width: 768px) {
     [class*="col-"] {
-        flex: 0 0 calc((100% / 12) * 12);
+        flex: 0 0 calc((100% / 12) * 6);
         max-width: none;
+    }
+
+    .col-12{
+        flex: 0 0 calc((100% / 12) * 12);
+        max-width: 0 0 calc((100% / 12) * 12); 
     }
 }
 
