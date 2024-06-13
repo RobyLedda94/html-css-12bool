@@ -15,6 +15,12 @@
     padding: 10px 0px;
 }
 
+.container-fluid{
+    max-width: 100%;
+    width: 100%;
+}
+
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -36,6 +42,17 @@
     border: 1px solid white;
     color: white;
     height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.inner-content{
+    background-color: green;
+    border: 1px solid black;
+    height: 30px;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
