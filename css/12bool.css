@@ -110,19 +110,23 @@
     }
 } */
 
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 768px) {
     [class*="col-"] {
-        flex: 0 0 calc((100% / 12) *12);
+        flex: 0 0 calc((100% / 12) * 12);
         max-width: none;
     }
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 480px) {
     [class*="col-"] {
-        flex: 0 0 calc((100% / 12) *12);
+        flex: 0 0 calc((100% / 12) * 12);
         max-width: none;
     }
 }
+
+
 
 
 
