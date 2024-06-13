@@ -117,5 +117,12 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    [class*="col-"] {
+        flex: 0 0 calc((100% / 12) *12);
+        max-width: none;
+    }
+}
+
 
 
