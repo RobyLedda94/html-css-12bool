@@ -4,6 +4,7 @@
 
 .col-1{
     flex-basis: calc((100% / 12) * 1);
+    /* max-width: calc((100% / 12) * 1); */
 }
 
 .col-2{
@@ -97,5 +98,24 @@
 .col-offset-11{
     margin-left: calc((100% / 12) * 11);
 }
+
+
+
+/* MEDIA QUERY */
+
+
+/* @media screen and (max-width: 480px) {
+    .col-xs-12{
+        flex-basis: 100%;
+    }
+} */
+
+@media screen and (max-width: 480px) {
+    [class*="col-"] {
+        flex: 0 0 calc((100% / 12) *12);
+        max-width: none;
+    }
+}
+
 
 
